@@ -18,13 +18,34 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-
   </head>
 
   <body>
+    <!-- changed navbar color to white -->
     <nav class="navbar navbar-light bg-light" style="background-color: white">
-        <a class="navbar-brand" href="#">John "Jimmy" Alonso</a>
-        
-      </nav>
+      <!-- CSS changed font for "a" link -->
+      <a class="navbar-brand" href="#">John "Jimmy" Alonso</a>
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary" 
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          <div class="menu-button"></div>
+          <div class="menu-button"></div>
+          <div class="menu-button"></div>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+    </nav>
+
+    <h1>About Me</h1>
   </body>
 </html>
