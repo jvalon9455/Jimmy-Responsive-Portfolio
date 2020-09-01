@@ -1,21 +1,20 @@
-a{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #7ddada;
-    color: white !important
-    font-weight: 800%;
-    font-size: 24em;
-
-}
-
-.menu-button{
-    width: 35px;
-  height: 2px;
-  background-color: black;
-  margin: 6px 0;
+/* takes the default margin and padding away from page */
+{
+    margin: 0;
+    padding: 0;
 }
 
 h1{
+    color: white;
+    background-color: #22b2bd;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 800;
-    color: #7ddada;
+    
+}
+
+body{
+    height: 100%;
+}
+
+body{
+    background-image: url(./Images/ignasi_pattern_s.png)
 }
