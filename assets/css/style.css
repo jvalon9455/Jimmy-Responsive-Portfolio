@@ -1,12 +1,9 @@
-/* takes the default margin and padding away from page */
+/* takes the default margin and padding away from page
 {
     margin: 0;
     padding: 0;
-}
+} */
 
-body {
-    background-image: url("./ignasi_pattern_s.png");
-  }
 
 .navbar-brand{
     
@@ -31,14 +28,16 @@ img{
 
 footer{
     margin: 0%;
-    padding: 0%;
+    padding-top: 20%;
 }
 .copyright-footer{
     background-color: gray;
-    border-top: solid #22b2bd;
+    border-top: solid 5px #22b2bd;
     text-align: center;
-    
-    
-    
+}
 
+.copyright-footer span{
+    color: #22b2bd;
+    font-size: 1rem;
+    opacity: 50%;
 }
