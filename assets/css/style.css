@@ -22,6 +22,23 @@ h1{
     
 }
 
+img{
+    float: left;
+}
+.wrap-text{
+    width: 80%;
+}
 
+footer{
+    margin: 0%;
+    padding: 0%;
+}
+.copyright-footer{
+    background-color: gray;
+    border-top: solid #22b2bd;
+    text-align: center;
+    
+    
+    
 
 }
