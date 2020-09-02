@@ -21,15 +21,22 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
- 
- <body background="https://files-origin.slack.com/files-pri/T018X4HFZC4-F019M7F09RB/ignasi_pattern_s.png"
-  <!-- navbar starts -->
-  <!--  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navmargin-bottom">
-        <!-- name in navbar and added buttons-->
-        <a class ="navbar-brand" href="#">John "Jimmy" Alonso</a>
+  <body
+    background="https://files-origin.slack.com/files-pri/T018X4HFZC4-F019M7F09RB/ignasi_pattern_s.png"
+    <!--
+    navbar
+    starts
+    --
+  >
+    <!--  -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light"
+      id="navmargin-bottom"
+    >
+      <!-- name in navbar and added buttons-->
+      <a class="navbar-brand" href="#">John "Jimmy" Alonso</a>
 
-        <button
+      <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -37,93 +44,87 @@
         aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
-        >
-        <span class=navbar-toggler-icon></span>
-        </button>
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <!-- ml-auto pushes items to the right -->
-            <div class="navbar-nav ml-auto">
-                <a class="nav-link ml-auto" href="./contact.html">Contact</a>
-                <a class="nav-link ml-auto" href="./portfolio.html">Portfolio</a>
-                <a class="nav-link ml-auto" href="./index.html"
-                >About<span class="sr-only">(current)</span></a>
-
-            </div>
-
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <!-- ml-auto pushes items to the right -->
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link ml-auto" href="./contact.html">Contact</a>
+          <a class="nav-link ml-auto" href="./portfolio.html">Portfolio</a>
+          <a class="nav-link ml-auto" href="./index.html"
+            >About<span class="sr-only">(current)</span></a
+          >
         </div>
-<!-- end of the navbar -->
+      </div>
+      <!-- end of the navbar -->
     </nav>
 
     <section class="page-container">
-        <main>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6" id="contact">
-                        <h1>Contact</h1>
-                        <br>
-                        <!-- w3schools help -->
-                        <form>
-                            <!-- Name location -->
-                            <div class=contact-form>
-                                <label for="name">Name</label>
-                                <input type="text" class="online-form" id="input-Name">
-
-                            </div>
-
-                                <!--email location  -->
-
-                            <div class="contact-form">
-                                <label for="email">Email</label>
-                                <input type="text" class="online-form" id="input-email">
-
-                                <!-- Message/Text Area -->
-
-                            </div>
-                            <div class="contact-form">
-                                <label for="Message">Message</label>
-                                <textarea name="textArea" id="Message" cols="30" rows="10"></textarea>
-
-                            </div>
-
-                            <!-- submit button -->
-                           <button type="submit" class="btn btn-primary btn-teal">
-                            submit
-                           </button>
-                            
-                        </form>
-
-
-                    </div>
-
+      <main>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6" id="contact">
+              <h1>Contact</h1>
+              <!-- added jumbotron to encase contact info -->
+              <div class="jumbotron jumbotron-fluid">
+              <!-- w3schools help -->
+              <form>
+                <!-- Name location -->
+                <div class="contact-form">
+                  <label for="name">Name</label>
+                  <input type="text" class="online-form" id="input-Name" />
                 </div>
-        
+
+                <!--email location  -->
+
+                <div class="contact-form">
+                  <label for="email">Email</label>
+                  <input type="text" class="online-form" id="input-email" />
+
+                  <!-- Message/Text Area -->
+                </div>
+                <div class="contact-form">
+                  <label for="Message">Message</label>
+                  <textarea
+                    name="textArea"
+                    id="Message"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+
+                <!-- submit button -->
+                <button type="submit" class="btn btn-primary btn-teal">
+                  submit
+                </button>
+              </form>
             </div>
-
-
-        </main>
-
+          </div>
+        </div>
+      </main>
     </section>
     <footer>
-        <div class=copyright-footer>
-            <span>&copy;2020 Copyright</span>
-        </div>
+      <div class="copyright-footer">
+        <span>&copy;2020 Copyright</span>
+      </div>
     </footer>
     <!-- Bootstrap Scripts -->
     <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"
-  ></script>
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

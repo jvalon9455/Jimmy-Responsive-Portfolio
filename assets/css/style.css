@@ -9,6 +9,8 @@
 .jumbotron{
     background-color: white;
     position: relative;
+    width: 800px;
+    
 }
 h1{
     color: #22b2bd;
@@ -54,4 +56,6 @@ footer{
 
 .btn {
     background-color: #22b2bd;
+    border-color: #22b2bd;
 }
+
