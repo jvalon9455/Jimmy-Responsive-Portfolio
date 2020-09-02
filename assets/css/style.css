@@ -19,11 +19,7 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-.container{
-    padding-block: 50%;
-}
-
+/* floats image og myself to the left in about me */
 img{
     float: left;
 }
