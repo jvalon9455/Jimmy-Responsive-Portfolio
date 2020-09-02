@@ -10,6 +10,7 @@
     background-color: white;
     position: relative;
     width: 800px;
+    box-sizing: content-box;
     
 }
 h1{
