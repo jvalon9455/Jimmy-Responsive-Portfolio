@@ -19,6 +19,10 @@ h1{
 
 .row{
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -20px;
+    margin-left: -20px;
 }
 
 img{
@@ -44,7 +48,6 @@ footer{
     opacity: 50%;
 }
 
-img{
-    position: relative;
-
+.contact-form{
+    margin-bottom: 20px;
 }
